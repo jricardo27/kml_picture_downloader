@@ -1,0 +1,957 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>2015 Holidays</name>
+		<description><![CDATA[Bangkok<br>Portugal<br>Spain<br>Morroco<br>Italy<br>]]></description>
+		<Folder>
+			<name>Untitled layer</name>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Coliseo Romano</name>
+				<ExtendedData>
+				</ExtendedData>
+				<description><![CDATA[Italy. Rome.<br>EUR$12 + $2 Booking<br>El primero Domingo de cada mes el Coliseo es gratuito y la entrada no puede ser reservada.<br>http://www.the-colosseum.net/around/visit.htm]]></description>
+				<Point>
+					<coordinates>12.492142000000001,41.89020200000001,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Manarola (Cinque Terre)</name>
+				<ExtendedData>
+				</ExtendedData>
+				<description><![CDATA[Italy. Cinque Terre.]]></description>
+				<Point>
+					<coordinates>9.729466,44.107626,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Leaning Tower of Pisa</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>10.396597,43.722952,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Positano (Amalfi Coast)</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>14.602815,40.633333,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Pompei</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>14.498934,40.746157,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Piazza del Campo</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>11.331691,43.31842,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Venice</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>12.315515,45.440847,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Naples</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>14.268124,40.851775,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Florence</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>11.248001,43.771033,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Park Güell</name>
+				<ExtendedData>
+				</ExtendedData>
+				<description><![CDATA[Barcelona.<br>Park Güell is a stunning garden complex designed by Antoni Gaudí, the architect whose work has defined Barcelona.The gardens are filled with beautiful mosaics and statues, while the buildings are so pretty they look like they could have been made out of gingerbread.]]></description>
+				<Point>
+					<coordinates>2.152694,41.414495,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Plaça de la Concòrdia</name>
+				<ExtendedData>
+				</ExtendedData>
+				<description><![CDATA[Barcelona.<br>This small main square in Les Corts has been called a ‘hidden gem’ by locals. The name means ‘Harmony Square’ which is the perfect name for this little piece of zen away from the hustle and bustle of the city.Visit Fragments Café for a cup of coffee, or take in some culture at the Centre Cívic Can Déu.]]></description>
+				<Point>
+					<coordinates>2.131914,41.386728,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Sant Antoni Market</name>
+				<ExtendedData>
+				</ExtendedData>
+				<description><![CDATA[Barcelona.<br>Visit the Sant Antoni Market on a Sunday morning and it will be wonderfully bereft of tourists.This market is a treasure trove of vintage books, comics, coins and posters.<br><br>During the week, you can find in this market of Barcelona’s Eixample Esquerra stalls outside selling all kinds of goods, from clothes and shoes to homewares … and, inside, gleaming displays of vegetables, fruit, fish and meat. On Sundays, second-hand books and stamps for collectors captivate the visitors to the historic Mercat de Sant Antoni which retains the architecture, vibrancy and charm of its origins.The Mercat de Sant Antoni was designed by Antoni Rovira i Trias in 1882. Welcoming us inside, above the main entrance, is the Barcelona coat of arms, crowned by a bat, and a plaque showing the year the market was built. The metal structure, so typical of the markets built at the time, spans an interior that covers an entire block in Cerdà’s Eixample district: an area large enough to contain the stalls that supply the neighbourhood of Sant Antoni.One of the most beautiful and original elements is the gallery around the perimeter of the Mercat de Sant Antoni. Green tarpaulins provide walls and ceilings protecting the circular corridor where traders sell clothes and other goods throughout the week, while on Sundays shoppers fill their bags with books, stamps, comics and magazines. A walk around the market, especially on Sundays, is a long-established ritual among the locals and visitors who come to Sant Antoni, in search of a literary relic, to swap stamps or just to browse. At night, when the stallholders shut up shop, they put their goods into wooden drawers and the Mercat de Sant Antoni falls silent. Address: Comte d'Urgell, 1 (prov. Ronda Sant Antoni, 18)Phone: 924 234 287How to get there: Metro: L2 stop Sant Antoni.| Bus: 13, 24, 37, 41, 55 and 64.Web site: www.mercatdesantantoni.comE-mail: mercatsantoni@mercatsbcn.catOpening time: Monday to Thursday, from 7am to 2.30pm and 5.30pm to 8.30pm. Friday and Saturday, from 7am to 8.30pm.Accessible to people with reduced mobility]]></description>
+				<Point>
+					<coordinates>2.161933,41.379526,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>La Rambla</name>
+				<ExtendedData>
+				</ExtendedData>
+				<description><![CDATA[Barcelona.<br>Las Ramblas is probably Barcelona’s most famous boulevard. It’s worth a stroll down there to see the stalls, street performers and shops.The food is deceptively expensive: you may be lured in with the promise of cheap tapas, but you’ll be hit with a large drinks bill at the end.Instead, explore nearby Gràcia: a hub of stunning architecture and eateries.]]></description>
+				<Point>
+					<coordinates>2.174155,41.38031,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Selva de Mar</name>
+				<ExtendedData>
+				</ExtendedData>
+				<description><![CDATA[Barcelona.<br>True Catalonians prefer to take the metro to the relatively less crowded beaches at Selva de Mar]]></description>
+				<Point>
+					<coordinates>2.209797,41.408303,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Sitges</name>
+				<ExtendedData>
+				</ExtendedData>
+				<description><![CDATA[Barcelona.<br>True Catalonians prefer to take the metro to the relatively less crowded beaches at Sitges.<br><br>There's a certain magic in the air in Sitges. The whitewashed coastal town lies on the Costa Brava, approximately 30km South of Barcelona. For decades Sitges has been a meeting place for people from all walks of life. A sophisticated getaway for young and old, gay and straight, families and friends. The town is full to bursting with classic art deco buildings and the seafront promenade is lined with palm trees. Its 17 beaches are some of the best on the Mediterranean coastline.There is something for everybody in this dynamic beach town. Families can enjoy the safe beaches, ice cream parlours and close proximity to theme and water parks. Bon viveurs will love the French restaurants and the architecture in the old town. Party animals can make the most of the bars and clubs on 'The Street of Sin'. Couples will find romance in the cosy bars, rambling streets and blue seas. Artists will find inspiration from the bohemian atmosphere and the stunning light.Sitges' microclimate means that it enjoys sunshine on average 300 days a year. It also plays host to major film, dance and culture festivals. There are reasons to come to Sitges all year round.<br><br>http://www.sitges-tourist-guide.com/]]></description>
+				<Point>
+					<coordinates>1.8095789999999998,41.238754,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Parc del Laberint</name>
+				<ExtendedData>
+				</ExtendedData>
+				<description><![CDATA[Barcelona.<br>The Parc del Laberint d’Horta is the oldest garden in Barcelona, dating back to 1791.There’s two great reasons to go here:1. It’s a labyrinth. The name might have clued you into this. And it’s genuinely easy to get lost here. But don’t fear - there’s beautiful tadpole-filled ponds, flowers and other natural wonders for you to observe while frantically signalling for help.2. Tickets cost just €2.23. That’s less than the price of a coffee back home!]]></description>
+				<Point>
+					<coordinates>2.145719,41.440306,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Salterio</name>
+				<ExtendedData>
+				</ExtendedData>
+				<description><![CDATA[Barcelona.<br>Salterio has been praised for serving up the ‘best sangria in Barcelona’ as well as its pita pocket pizzas known as Sardos.The food is traditional Moroccan fare and is one of the few places where you can get a fully vegetarian meal.Be warned: this restaurant is a little tricky to find because it is so hidden.]]></description>
+				<Point>
+					<coordinates>2.175989,41.38256,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Font Màgica</name>
+				<ExtendedData>
+				</ExtendedData>
+				<description><![CDATA[Barcelona.<br>The Magic Fountain of Montjuic has choreographed music lasting 10 to 14 minutes which combines musical fragments. And also you can enjoy the songs last for 3 to 4 minutes offered between choreography. until this summer.<br><br>From 31 March to 30 OctoberFrom Thursday to Sunday except September 20, September 2123:30 to 21:00]]></description>
+				<Point>
+					<coordinates>2.151399,41.370687,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Mercat dels Encants</name>
+				<ExtendedData>
+				</ExtendedData>
+				<description><![CDATA[Barcelona.<br>Els Encants is one of Europe’s oldest markets, dating back to the 14th century, and is the biggest of its kind in Barcelona.There is a lot of old tat there, but it’s not uncommon to find a gleaming ‘ganga’ (bargain) amongst the junk. If you go between 8-9.30am on a Monday, Wednesday or a Friday you can watch the auctions take place.<br><br>Open every Monday, Wednesday, Friday and Saturday, 9:00 am to 20:00 pmPublic Auction: from 8:00 am to 9:30 pm, Monday, Wednesday and Friday.]]></description>
+				<Point>
+					<coordinates>2.185944,41.400964,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>El Raval</name>
+				<ExtendedData>
+				</ExtendedData>
+				<description><![CDATA[Barcelona.<br>El Raval is Barcelona’s slightly seedy underbelly. It’s not a stereotypically tourist area, but if you persevere you’ll be rewarded by a vibrant mix of locals, noise, street art, museums, bars, cool shops and undoubtedly a glimpse at the ‘real’ Barcelona.<br><br>This article will attempt to highlight the good and the bad of one of Barcelona's most controversial and yet interesting neighbourhood.There are so many sides to the vibrant area known as El Raval that it makes it a real challenge to write this article. Raval is an interesting and exciting area in Barcelona however it also has its darker and seedy side that you ought to be aware of. It is certainly not the safest or the cleanest area in Barcelona but it does have a special personality and character all of its own that makes this area a compelling visit.A street in RavalA street in RavalIf you are a seasoned traveller then I would have no hesitation in recommending this area if you want to experience an authentic and stimulating Barcelona neighbourhood. If, however, you are not comfortable with walking through seedy areas or if you are particularly sensitive to street noise then this may not be the area for you.El Raval is part of the second stage development of historic Barcelona and used to be very densely populated until the city walls were removed around the turn of the 20th century and the Eixample area was built. The Southern most part of the El Raval, near the port also used to be famous as the city's red-light district. However in 1988 the government started a huge urban regeneration project and invested a lot of money in cleaning up the area and it has become more modern and safer. However even after this urban clean up there are still locations within Raval that are unsafe at night. There are also localised areas where prostitution continues.Picturesque Street in RavalPicturesque Street in RavalSo what is the appeal to El Raval? The area is vibrant, historic, authentic and full of personality. It is a lively, multi-cultural neighbourhood with a huge variety of tempting cafes, restaurants and bars. The area has also become fashionable being host to a wide variety of art studios, galleries and trendy bookshops, not to mention the imposing MACBA (museum of modern art) and CCCB which is the neighbouring exhibition centre.Clothes shopping is also a pleasure in El Raval thanks to all the little one-off boutiques that line some of the streets giving you a truly unique shopping experience. Unlike the Eixample with its large branded name designer labels, Raval is where you find the small privately owned shops selling clothes you can't find anywhere else.El Raval is alive all through the day and night so you will never be without an eatery to entice you in the early hours of the morning!El Raval offers a central location within walking distance of many of the other popular areas such as the Gothic Quarter and Eixample. The nearest metro stops are on Las Ramblas, Barcelona's most famous street which runs up one side of El Raval.Staying in El Raval also means that you are situated between two of Barcelona's famous food markets, La Boqueria on Las Ramblas and Mercat Sant Antoni. Both places are worth a visit to stock up on fresh fruit to get you through the day or to sample Spain's delicious chorizo or Jamon Serrano.In terms of location El Raval gives you good access to many of the city's main attractions which are within walking distance. However the area can be noisy so be careful if you are easily disturbed when sleeping.The Raval is a prime area for pick-pockets and other unsavoury characters so it is worth being wary when in the area, especially at night. Don't wander down any unlit alleys and be watchful of your belongings everywhere.I love El Raval but it isn't to everybody's taste. It is real, it's not that clean or beautiful, and its certainly not the safest neighbourhood in the city but it does have so much personality and character that it should be a crime]]></description>
+				<Point>
+					<coordinates>2.168184,41.379716,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Trevi Fountain</name>
+				<ExtendedData>
+				</ExtendedData>
+				<description><![CDATA[Roma.<br>Trevi Fountain (Italian: Fontana di Trevi) is a fountain in the Trevi district in Rome, Italy, designed by Italian architect Nicola Salvi and completed by Pietro Bracci. Standing 26.3 metres (86 ft) high and 49.15 metres (161.3 ft) wide,[1] it is the largest Baroque fountain in the city and one of the most famous fountains in the world. The fountain has appeared in several notable films, including Federico Fellini's La Dolce Vita, and is a popular tourist attraction.]]></description>
+				<Point>
+					<coordinates>12.483313,41.900932,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Mouth of Truth</name>
+				<ExtendedData>
+				</ExtendedData>
+				<description><![CDATA[Roma.<br>The legend of this 4th-century stone, located in the Church of Santa Maria in Cosmedin, says that it eats the hand of liars.]]></description>
+				<Point>
+					<coordinates>12.48145,41.888106,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Sistine Chapel</name>
+				<ExtendedData>
+				</ExtendedData>
+				<description><![CDATA[Vaticano.<br>Tickets: To visit the Sistine Chapel, one must purchase an admission ticket to theVatican Museums. As of 2013, adult tickets are 16 euros ($22). There are reduced options for youth, students, clergy and some others. There are selected free admission days throughout the year, including the last Sunday of each month. Because lines can be extremely long, it may save time to purchase a ticket online.Hours: The Vatican Museums are open Monday through Saturday and the last Sunday of each month. Typically, the ticket office is open from 9 a.m. to 4 p.m., and the museums close at 6 p.m.Restrictions: There are a variety of restrictions at the Vatican Museums, including no alcoholic drinks, immodest clothing, flash photography, or touching the works of art. All photography and filming is forbidden in the Sistine Chapel.]]></description>
+				<Point>
+					<coordinates>12.454466,41.902933,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Buñol - Tomatina</name>
+				<ExtendedData>
+				</ExtendedData>
+				<description><![CDATA[Spain.<br>The sunny Mediterranean city of Valencia in Spain is known around the world for its tasty and succulent oranges. And just thirty miles away is Buñol, another town just as famous for its produce. But its notoriety comes from the locals' habit of wearing the produce as well as eating it—big time. Every year, Buñol hosts La Tomatina, the world's largest food fight. Well connected by motorway and rail to Madrid and Valencia, this charming town erupts into a fiery blaze of tomato-hurling on the last Wednesday of every August. The batalla takes place during a week-long celebration filled with non-stop festivities and the ever present anticipation of the monstrous tomato battle that serves as the culmination of the week's events.The Tomatina started during the annual town festival in hour of their patrons San Luis Bertran and the Our Lady of the Forsaken. One parade that takes place during the town fiesta is the parade of the giant heads. As just so happened one year back in the 1940’s some youngsters wanted to participate in this parade but the participants didn’t let them join. In a moment of youthful impulse the kids barged into the parade knocking down one of the participants. When this person got back on his feet, furious with what had occurred, he went to the nearest stall and grabbed the first thing he could find—some tomatoes. I think you can imagine the rest. From that moment on, this festival has grown in popularity year after year.During the week leading up to this epic battle, the 9000 inhabitants of Buñol watch as their town doubles in size. A whole week of parades, fireworks, food and street parties make this town the center of attention in Spain. The night before La Tomatina, the narrow streets beneath the town's medieval bell tower begin to fill with the smell of tomatoes. You will find giant pans of delectable paella simmering, as is tradition, over wood-burning fires each one trying to win the paella contest. After the contest, wine flows and more food is eaten all over the small town until the early hours of the morning.Then, early Wednesday morning, shopkeepers and business owners along the Plaza Mayor of the town set about covering windows and doors in preparation for the upcoming street brawl. Large trucks rumble up the cobblestone streets and arrive in the crowd-filled square ready to unload their haul of tomatoes for the crowd to use. Like many parties, this one doesn’t begin until the sound of an exploding bottle rocket lets the crowd know it is time to start throwing. On the back of the trucks there are townspeople unloading the tomatoes and pelting the crowd with some of the 120 tons of sloppy, squishy tomatoes trucked in from Chilches in Castellon.Dressed in clothing doomed for the recycling bin, more than 20,000 revelers find the nearest target to hit or anything else that strays within range of their hand-crushed veggie blobs. Soon the streets are awash in seeds, pulp and tomato guts that will shortly leave the cobblestoned streets spotless—thanks to the acidity of the tomatoes—after being hosed down with water. This insanity ensues for exactly one hour until it ends the same way it began—with the sound of a bottle rocket.If you plan on visiting the Tomatina be aware that you must now pay a municipal tax to participate which you can purchase beforehand. Because this fiesta has increased in popularity, there is now a limit to people that can participate (20,000). Also for those taking part in the Tomatina and would like to take some pictures for posterity, remember: anyone with a camera will be considered a prime target. You have been warned!Tomatina - FactoidsCelebrated on the last Wednesday of the month of August.There is no political or religious significance to La Tomatina, it's just good, messy fun.Participants who show up from around the world: 20,000.Number of tomatoes used: over 120,000 pounds of tomatoes!After the battle, you can hose off the splatter on the riverbank, where the town slaps]]></description>
+				<Point>
+					<coordinates>-0.790133,39.420344,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Genoa</name>
+				<ExtendedData>
+				</ExtendedData>
+				<description><![CDATA[Italy.<br>Genoa has more free beaches than you’ll know what to do with AND a budget-friendly public transport system. You can get a single ticket for €1.50 that’s valid forthe next 100 minutes on any number of buses you want, or a daily one valid for24hrs for just €4.50 per person or €9.00 for four people traveling together. Jumpon the number 15 and head out to nearby beaches Quarto, Quinto or Nervi. Withyour leftover money, spend it on a boat to San Fruttuoso (€18.00 return) and visitthe 12th-century abbey by the bluest bay you ever saw.]]></description>
+				<Point>
+					<coordinates>8.946256,44.40565000000001,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Asinelli Tower</name>
+				<ExtendedData>
+				</ExtendedData>
+				<description><![CDATA[Bologna.<br>Asinelli Tower, the tallest one in Italy, right inthe heart of Bologna. For just €3 you can climb to the top of this 12th century tower,almost twice the size of Pisa’s more famous one, and look out at the city below.When you’re done, head down into the town for some free nibbles. Mostrestaurants open their doors at about 6pm and if you order an aperitivo (spritz orsparkling wine) you can eat for free. Depending on where you go, you might endup with an entire pizza. Just keep your glass topped up.]]></description>
+				<Point>
+					<coordinates>11.346731,44.494209000000005,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Parco dell'Etna</name>
+				<ExtendedData>
+				</ExtendedData>
+				<description><![CDATA[Sicily.<br>Mount Etna on Sicily’s east coast is open all year to tourists (as long as it’s noterupting!). In the winter it serves as a fairly basic no-frills ski destination, but if yougo in summer you can see the black lava sand and crunchy volcanic rocks right upclose. Jump on a bus from town (tickets cost €5.90) and hop out at RifugioSapienza, the peak’s southern gateway. From there you can get a cable car(€27.50) that connects with a 4×4 bus and a guide (€57.50) who’ll walk you aroundthe peak. It’s a two-hour round trip, costs about as much as a fancy dinner — buthow often do you get to see a live volcano? Head back into town early enough toorder an aperitivo and get amongst the free bar buffet.]]></description>
+				<Point>
+					<coordinates>14.977216,37.765305,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Duomo di Milano</name>
+				<ExtendedData>
+				</ExtendedData>
+				<description><![CDATA[Milan.<br>You can’t go to Milan without visiting the Duomo, which took 500 years tocomplete (and they’re still tinkering with it). You won’t be short of statues to look at(it boasts 3,500), or spires (135), or fancy bronze doors (five, all carved by differentartists). It’s free entry, so take the lift to the roof and if you’re lucky you might evenget to see the Alps. Try not to get overwhelmed and faint, it’d be a long fall.]]></description>
+				<Point>
+					<coordinates>9.191926,45.464098,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Ospedale Civile</name>
+				<ExtendedData>
+				</ExtendedData>
+				<description><![CDATA[Italy. Voghera.<br>The Ospedale Civile is not your regular hospital. Not only is it housed in theoutrageously grand 15th-century Scuola Grande di San Marco with its marble floor,ancient cloister and gardens, but recently opened to the public is its vast collectionof historical medical instruments and illustrations by the likes of Renaissancepainters Bellini and Tintoretto. It’s free and it’s kind of gruesome. Don’t let it put youoff your tea.]]></description>
+				<Point>
+					<coordinates>9.016747,44.995318,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Vernazza (Cinque Terre)</name>
+				<ExtendedData>
+				</ExtendedData>
+				<description><![CDATA[Italy. Vernazza.]]></description>
+				<Point>
+					<coordinates>9.682538,44.134867,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Corniglia (Cinque Terre)</name>
+				<ExtendedData>
+				</ExtendedData>
+				<description><![CDATA[Italy. Corniglia.]]></description>
+				<Point>
+					<coordinates>9.708974,44.120212,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Riomaggiore (Cinque Terre)</name>
+				<ExtendedData>
+				</ExtendedData>
+				<description><![CDATA[Italy. Riomaggiore.]]></description>
+				<Point>
+					<coordinates>9.73732,44.098858,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Monterosso (Cinque Terre)</name>
+				<ExtendedData>
+				</ExtendedData>
+				<description><![CDATA[Italy. Monterosso.]]></description>
+				<Point>
+					<coordinates>9.655158,44.146193,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Albarracín</name>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>http://r2-store.distractify.netdna-cdn.com/postimage/201409/52/b9a95ae402ca99cfa3f39c7206e1c435_970x.jpg</value>
+					</Data>
+				</ExtendedData>
+				<description><![CDATA[Albarracín is a beautifully preserved medieval village in Northern Spain. The rock paintings in the cliff-foot caves of the Albarracin Cultural Park (some of the most important evidences of the Levantine prehistoric art of Spain) and the "Picaportes" (door knobs) are something to marvel at!]]></description>
+				<Point>
+					<coordinates>-1.443876,40.407558,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Chefchaouen</name>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>http://r2-store.distractify.netdna-cdn.com/postimage/201409/52/2939b73a1f0298c044c8ca22e46cc508_970x.jpg</value>
+					</Data>
+				</ExtendedData>
+				<description><![CDATA[Chefchaouen is best known for its blue buildings, painted in a spectrum of soothing hues. If you want to escape the city, make sure to check out the nearby Rif mountains and the Cascades d'Akchour!]]></description>
+				<Point>
+					<coordinates>-5.269722000000001,35.171389,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Hallstatt</name>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>http://r2-store.distractify.netdna-cdn.com/postimage/201409/52/2b94c690b8090fb56ecfe1ec087be24f_970x.jpg</value>
+					</Data>
+				</ExtendedData>
+				<description><![CDATA[Hallstat is a medieval village which is home to less than 1,000 people. High in the mountains of Hallstat, you can explore prehistoric mines that were some of the first in the entire world.]]></description>
+				<Point>
+					<coordinates>13.649262,47.562234,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Quinta da Regaleira</name>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>http://r2-store.distractify.netdna-cdn.com/postimage/201409/52/d8b30fc00a441ca9810ccb7e37044626_970x.jpg</value>
+					</Data>
+				</ExtendedData>
+				<description><![CDATA[Quinta da Regaleira is an estate located near the historic center of Sintra, classified as a World Heritage Site by UNESCO. Make sure to check out the Gruta do Labirinto (the Labyrinthic Grotto) and it's mysterious wishing well! This 27 meter deep well resembles an inverted tower. Depending on the direction you choose, either a journey down into the depths of the earth, or a climb out of the darkness into the light awaits.]]></description>
+				<Point>
+					<coordinates>-9.396024,38.796307,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Fes</name>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>http://r2-store.distractify.netdna-cdn.com/postimage/201409/52/9346bade920b3100070e5c6e91a1deee_970x.jpg</value>
+					</Data>
+				</ExtendedData>
+				<description><![CDATA[You're looking at the Leather Souq, the oldest leather tannery in the world. Don't miss the marvelous Bab Boujloud (the blue gate) as well!]]></description>
+				<Point>
+					<coordinates>-5.0,34.033333,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Tangier</name>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>http://bluedoorhotel.files.wordpress.com/2013/02/tangier-rooftops.jpg</value>
+					</Data>
+				</ExtendedData>
+				<description><![CDATA[Tangier is divided into an old walled city, or medina, a nest of medieval alleyways, and a new, modern city, the ville nouvelle. The medina contains a kasbah, the walled fortress of the sultan, which forms its western corner; the Petit Socco (also known as Socco Chico and Souq Dakhel), an historic plaza in the centre; and of course, the souqs, or markets. The much more impressive Grand Socco (officially renamed Pl du 9 Avril 1947), a pleasant square with a central fountain, is the hinge between the two sides of town, and the postcard entrance to the medina.<br>Read more: http://www.lonelyplanet.com/morocco/the-mediterranean-coast-and-the-rif/tangier#ixzz3UM8vCIno]]></description>
+				<Point>
+					<coordinates>-5.8068323,35.7815092,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Tarifa</name>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>http://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Tarifa_Puerta_de_Jerez2004.jpg/250px-Tarifa_Puerta_de_Jerez2004.jpg</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-5.6045938,36.0143416,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Alafama</name>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>http://images-resrc.staticlp.com/S=W750M,H450M,U/O=85/http://media.lonelyplanet.com/assets/image/e888605d9f2204c3ef67e6c8e7cb7fd422ef20b3a101b9955d25584a1a879ae8/55a6f9095650f42f212c787a268551c6cf6158f057797900112f8b612f7b29b4.jpg</value>
+					</Data>
+				</ExtendedData>
+				<description><![CDATA[Wander down (to save your legs) through Alfama's steep, narrow, cobblestoned streets and catch a glimpse of the more traditional side of Lisbon before it too is gentrified. Linger in a backstreet cafe along the way and experience some local bonhomie without the tourist gloss.<br>As far back as the 5th century, the Alfama was inhabited by the Visigoths, and remnants of a Visigothic town wall remain. But it was the Moors who gave the district its shape and atmosphere. In Moorish times this was an upper-class residential area. After earthquakes brought down many of its mansions (and post-Moorish churches) it reverted to a working-class, fisherfolk quarter. It was one of the few districts to ride out the 1755 earthquake.<br>With narrow lanes of residential houses and grocery stores, it has a distinct village atmosphere; you can quickly feel like an intruder if you take a wrong turn into someone's backyard. Early morning is the best time to catch a more traditional scene, when women sell fresh fish from their doorways. For a real rough-and-tumble atmosphere, visit during the Festas dos Santos Populares in June.<br><br><br>Read more: http://www.lonelyplanet.com/portugal/lisbon/sights/neighbourhoods-villages/alfama#ixzz3UWlASfJu]]></description>
+				<Point>
+					<coordinates>-9.1277289,38.7112995,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Mosteiro dos Jerónimos</name>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>http://images-resrc.staticlp.com/S=W750M,H450M,U/O=85/http://media.lonelyplanet.com/a/g/hi/t/bd7887076bf662849c7ffd575ddeb75b-mosteiro-dos-jeronimos.jpg http://images-resrc.staticlp.com/S=W750M,H450M,U/O=85/http://media.lonelyplanet.com/a/g/hi/t/922fd79b2c0f1f3ccbb02ea77cfc38f9-mosteiro-dos-jeronimos.jpg</value>
+					</Data>
+				</ExtendedData>
+				<description><![CDATA[Opening hours<br>10am-6.30pm Tue-Sun, free 10am-2pm Sun<br><br>Prices<br>adult/child €10/5<br><br>Belém’s undisputed heart-stealer is this Unesco-listed monastery. The mosteiro is the stuff of pure fantasy; a fusion of Diogo de Boitaca’s creative vision and the spice and pepper dosh of Manuel I, who commissioned it to trumpet Vasco da Gama’s discovery of a sea route to India in 1498.<br>Wrought for the glory of God, Jerónimos was once populated by monks of the Order of St Jerome, whose spiritual job for four centuries was to comfort sailors and pray for the king’s soul. When the order was dissolved in 1833, the monastery was used as a school and orphanage until about 1940.<br>Entering the church through the western portal, you’ll notice tree-trunk-like columns that seem to grow into the ceiling, which is itself a spiderweb of stone. Windows cast a soft golden light over the church. Superstar Vasco da Gama is interred in the lower chancel, just left of the entrance, opposite venerated 16th-century poet Luís Vaz de Camões. From the upper choir, there’s a superb view of the church; the rows of seats are Portugal’s first Renaissance woodcarvings.<br>There’s nothing like the moment you walk into the honey-stone Manueline cloisters , dripping with organic detail in their delicately scalloped arches, twisting auger-shell turrets and columns intertwined with leaves, vines and knots. It’s just wow. Keep an eye out for symbols of the age like the armillary sphere and the cross of the Military Order, plus gargoyles and fantastical beasties on the upper balustrade.<br>If you plan to visit both the monastery and Torre de Belém , you can save a little by purchasing a €12 admission pass valid for both, or €16 including the Museu Nacional de Arqueologia .<br><br><br>Read more: http://www.lonelyplanet.com/portugal/lisbon/sights/religious/mosteiro-dos-jeronimos#ixzz3UWmQEUY5]]></description>
+				<Point>
+					<coordinates>-9.2067093,38.6978867,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Castelo de São Jorge</name>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>http://images-resrc.staticlp.com/S=W750M,H450M,U/O=85/http://media.lonelyplanet.com/assets/image/17ab57633338bd1f7349e029d19ad43020a69870fb4c07b7192ed843cf523240/1f1e7f56cb9baa901533a630c2f700d6e2e0fb22c7d29257fdd8ff58d2354b99.jpg</value>
+					</Data>
+				</ExtendedData>
+				<description><![CDATA[Prices<br>adult/child €8.50/5<br><br>Opening hours<br>9am-9pm Mar-Oct, , 9am-6pm Nov-Feb<br><br>Towering dramatically above Lisbon, the hilltop fortifications of Castelo de São Jorge sneak into almost every snapshot. Roam its snaking ramparts and pine-shaded courtyards for superlative views over the city’s red rooftops to the river.<br>These smooth cobbles have seen it all – Visigoths in the 5th century, Moors in the 9th century, Christians in the 12th century, royals from the 14th to 16th centuries, and convicts in every century.<br>Inside the Ulysses Tower , a camera obscura offers a unique 360-degree angle on Lisbon, with demos every half-hour. There are also a few galleries displaying relics from past centuries, but the standout attraction is the view – as well as the anachronous feeling of stepping back in time amid fortified courtyards and towering walls.<br>Bus 737 from Praça Figueira goes right to the gate. Tram 28 also passes nearby.<br><br><br>Read more: http://www.lonelyplanet.com/portugal/lisbon/sights/castles-palaces-mansions/castelo-de-sao-jorge#ixzz3UX8BlRC7]]></description>
+				<Point>
+					<coordinates>-9.1334742,38.7139094,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Casa dos Bicos</name>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>http://c8.alamy.com/comp/EB8D5Y/the-casa-dos-bicos-lisbon-portugal-europe-EB8D5Y.jpg</value>
+					</Data>
+				</ExtendedData>
+				<description><![CDATA[Fundação José Saramago<br><br>Prices<br>adult/child €3/2<br><br>Opening hours<br>10am-6pm Mon-Sat<br><br>The pincushion facade of Casa dos Bicos, the eccentric 16th-century abode of Afonso de Albuquerque, former viceroy to India, grabs your attention with 1125 pyramid-shaped stones. Long closed to the public, the Casa reopened in 2012 to house a small museum dedicated to José Saramago (1922–2010), Portugal's most famous writer. Known for his discursive, cynical and darkly humourous novels, Saramago gained worldwide attention after winning the Nobel Prize in 1998. His best works mine the depth of the human experience and are often set in a uniquely Portuguese landscape. Stop in the bookstore to pick up one of his works, and don't miss the olive tree planted out front, taken from his birthplace of Azinhaga. Below the tree are the ashes of the great writer.]]></description>
+				<Point>
+					<coordinates>-9.1326857,38.7090182,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Praça do Comércio</name>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>http://images-resrc.staticlp.com/S=W750M,H450M,U/O=85/http://media.lonelyplanet.com/assets/image/e35723f590690c798b772500da4d3c2bd2339671d69bdd8db2eb58b5a4878bf8/0cb037ec9fee8942e9d9aaae110b75ad92b1963e985700653f8b3cf0537ff04e.jpg</value>
+					</Data>
+				</ExtendedData>
+				<description><![CDATA[With its grand 18th-century arcades, lemon-meringue facades and mosaic cobbles, the riverfront Praça do Comércio is a square to out-pomp them all. Everyone arriving by boat used to disembark here, and it still feels like the gateway to Lisbon, thronging with activity and rattling trams. At its centre rises the dashing equestrian statue of Dom José I , hinting at the square’s royal roots as the pre-earthquake site of Palácio da Ribeira.<br>In 1908, the square witnessed the fall of the monarchy, when anarchists assassinated Dom Carlos I and his son. The biggest crowd-puller is Verissimo da Costa’s triumphal Arco da Victória , crowned with bigwigs such as 15th-century explorer Vasco da Gama; come at dusk to see the arch glow gold.]]></description>
+				<Point>
+					<coordinates>-9.136591,38.70762,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Sé</name>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgrpkeUtUDxWMj-IVa8To3zBu-ZAZsMMKb4CkUUPm9CN5C_7k4</value>
+					</Data>
+				</ExtendedData>
+				<description><![CDATA[Opening hours<br>9am-7pm Tue-Sat, 9am-5pm Mon & Sun<br><br>One of Lisbon’s icons is the fortress like sé , built in 1150 on the site of a mosque soon after Christians recaptured the city from the Moors. It was sensitively restored in the 1930s. Despite the masses outside, the rib-vaulted interior, lit by a rose window, is calm. Stroll around the cathedral to spy leering gargoyles peeking above the orange trees.History buffs shouldn’t miss the less-visited Gothic cloister , which opens onto a deep pit full of archaeological excavations going back more than 2000 years. You have to squint hard to imagine it, but you’ll see remnants of a Roman street and shopfronts, an Islamic-era house and dump, as well as a medieval cistern. The treasury showcases religious artwork.]]></description>
+				<Point>
+					<coordinates>-9.1325811,38.7098805,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Rossio &amp; Praça da Figueira</name>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>http://images-resrc.staticlp.com/S=W750M,H450M,U/O=85/http://media.lonelyplanet.com/assets/image/b7802e8b7eb7e162f86e5535917f51dffef4e2aeb43692a9e3e6b0f85f448bc3/d58a94987903150351f85428415bbcdb6ee80512471a630e22e5c260e25191fb.jpg</value>
+					</Data>
+				</ExtendedData>
+				<description><![CDATA[All roads lead to Praça Dom Pedro IV, which lisboêtas nickname Rossio . The square has a 24-hour buzz: office workers, hash-peddlers and sightseers drift across its wave-like cobbles, bask in the spray of fountains and gaze up to Dom Pedro IV (Brazil’s first emperor), perched high on a marble pedestal.<br>Standouts feature the filigree horseshoe-shaped arches of neo-Manueline Rossio train station , where trains depart for Sintra, and neoclassical Teatro Nacional de Dona Maria II hiding a dark past as the seat of the Portuguese Inquisition.<br>Rossio’s sidekick is bustling Praça da Figueira , flanked by Pombaline town houses and alfresco cafes ideal for sipping a bica (espresso) and admiring the castle on the hillside.]]></description>
+				<Point>
+					<coordinates>-9.1378677,38.7137524,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Museu do Oriente</name>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>http://www.welovelisbon.net/sites/default/files/styles/slideshow_1024_x_450/public/1280px-Museu_do_Oriente.jpg?itok=j-23wBJS</value>
+					</Data>
+				</ExtendedData>
+				<description><![CDATA[Prices<br>adult/child €6/2, admission free 6-10pm Fri<br><br>Opening hours<br>10am-6pm Tue-Sun, 10am-10pm Fri<br><br>The beautifully designed Museu do Oriente highlights Portugal’s ties with Asia, from colonial baby steps in Macau to ancestor worship. The cavernous museum occupies a revamped 1940s bacalhau (dried salt-cod) warehouse – a €30 million conversion. Strikingly displayed in pitch-black rooms, the permanent collection focuses on Portuguese presence in Asia, and Asian gods.<br>Standouts on the 1st floor feature rare Chinese screens and Ming porcelain, plus East Timor curiosities such as the divining conch and delicately carved umbilical-cord knives. Upstairs, cult classics include peacock-feathered effigies of Yellamma (goddess of the fallen), Vietnamese medium costumes and an eerie, faceless Nepalese exorcism doll.]]></description>
+				<Point>
+					<coordinates>-9.1711164,38.7027723,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Oceanário</name>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>http://images-resrc.staticlp.com/S=W750M,H450M,U/O=85/http://media.lonelyplanet.com/a/g/hi/t/d570e894e4fb2c690dfd55e583aa7c99-oceanario.jpg</value>
+					</Data>
+				</ExtendedData>
+				<description><![CDATA[Prices<br>adult/child €14/9<br>Opening hours<br>10am-8pm<br><br>The closest you’ll get to scuba-diving without a wetsuit, Lisbon’s Oceanário is mind-blowing. No amount of hyperbole, where 8000 species splash in 7 million litres of seawater, does it justice. Huge wraparound tanks make you feel as if you are underwater, as you eyeball zebra sharks, honeycombed rays, gliding mantas and schools of neon fish.<br>Keep an eye out for oddities such as filigree seadragons, big ocean sunfish, otherworldly jellyfish and frolicsome sea otters. You’ll also want to see the recreated rainforest, Indo-Pacific coral reef and Magellan penguins on ice. The conservation-oriented oceanarium arranges family activities from behind-the-scenes marine tours to sleeping with the sharks.<br><br><br>Read more: http://www.lonelyplanet.com/portugal/lisbon/sights/nature-wildlife/oceanario#ixzz3UXE6nZaw]]></description>
+				<Point>
+					<coordinates>-9.09374,38.7635497,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Torre de Belém</name>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>http://images-resrc.staticlp.com/S=W750M,H450M,U/O=85/http://media.lonelyplanet.com/assets/image/ab8f06bd2b07bce922774423d4b77d8d779c1a2f65be08a31088e24cc889de15/6370bbe6b850efae9e12cf58bf5901ceb384af7a6ecd843cebcac3e7376cf14a.jpg</value>
+					</Data>
+				</ExtendedData>
+				<description><![CDATA[Prices<br>adult/child €6/3, free 1st Sun each month<br><br>Jutting out onto the Rio Tejo, this World Heritage–listed fortress epitomises the Age of Discoveries. Breathe in to climb a narrow spiral staircase to the tower, affording sublime views over Belém and the river.<br>Francisco de Arruda designed the pearly-grey chess piece in 1515 to defend Lisbon’s harbour and nowhere else is the lure of the Atlantic more powerful. The Manueline show-off flaunts filigree stonework, meringue-like cupolas and – just below the western tower – a stone rhinoceros.<br>The ungulate depicts the one Manuel I sent Pope Leo X in 1515, which inspired Dürer’s famous woodcut. Crowds can be intense on weekends (especially Sunday) – a warning to claustrophobes.]]></description>
+				<Point>
+					<coordinates>-9.215979,38.6915844,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Airport Train Station</name>
+				<ExtendedData>
+				</ExtendedData>
+				<description><![CDATA[Lisbon airport is located within the city limits and is only 6km from the city centre. Visitors can travel from the airport by one of three means of transport; by the metro, by the special Aerobus service or by taxi.<br><br>Both means of transport are equally good and take approximately the same time. The metro is cheaper (€1.40 single + €0.50 for the Viva Viagem card), with more services per hour but a connection is required to reach the centre of Lisbon.<br>The Aerobus is more expensive (€3.50) but the route is direct to Baixa and sees more of the city. The Aerobus departs from the parking bays in front of the arrivals lounge.]]></description>
+				<Point>
+					<coordinates>-9.128265400000002,38.7685731,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Igreja de São Vicente de Fora</name>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>http://www.planetware.com/photos-large/P/portugal-lisbon-old-quarter-sao-vicente-de-fora.jpg</value>
+					</Data>
+				</ExtendedData>
+				<description><![CDATA[Prices<br>adult/child €5/2.50<br><br>Opening hours<br>10am-6pm Tue-Sun<br><br>Graça’s serene, gorgeous Igreja de São Vicente de Fora was founded as a monastery in 1147, revamped by Italian architect Felipe Terzi in the late 16th century, and devastated in the 1755 earthquake. Elaborate blue-and-white azulejos dance across almost every wall, echoing the curves of the architecture. On the 1st floor you’ll find a one-off collection of panels depicting La Fontaine’s moral tales of sly foxes and greedy wolves. Under the marble sacristy lie the crusaders’ tombs.<br>Seek out the weeping, cloaked woman holding stony vigil in the eerie mausoleum . Have your camera handy for the superb views from the tower.<br><br><br>Read more: http://www.lonelyplanet.com/portugal/lisbon/sights/religious/igreja-de-sao-vicente-de-fora#ixzz3UXrrqW1W]]></description>
+				<Point>
+					<coordinates>-9.127627,38.7148909,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Lisbon Story Centre</name>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>http://www.planetware.com/photos-large/P/portugal-lisbon-lisboa-story-centre.jpg</value>
+					</Data>
+				</ExtendedData>
+				<description><![CDATA[Prices<br>adult/child €7/3<br><br>Opening hours<br>10am-8pm<br><br>This museum takes visitors on a 60-minute journey through Lisbon's history, from its early foundation (pre-Ancient Roman days) to modern times. An audioguide and multimedia exhibits describe key episodes, including New World discoveries, the terrifying 1755 earthquake (with a vivid film re-enacting the horrors) and the ambitious reconstruction that followed.<br>The final room shows the events that have taken place in the Praça do Comércio over the years, from early arrivals at the waterfront gates to the city, to the 1974 revolution and its less illustrious days as a parking lot in the 1980s.]]></description>
+				<Point>
+					<coordinates>-9.1356254,38.7079926,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Basílica da Estrela</name>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>http://www.planetware.com/photos-large/P/portugal-lisbon-basilica-da-estrela.jpg</value>
+					</Data>
+				</ExtendedData>
+				<description><![CDATA[Prices<br>basilica free, nativity scene €1.50, roof €4<br><br>Opening hours<br>7.30am-7.45pm<br><br>The curvaceous, sugar-white dome and twin belfries of Basílica da Estrela are visible from afar. The echoing interior is awash with pink-and-black marble, which creates a kaleidoscopic effect when you gaze up into the cupola. The neoclassical beauty was completed in 1790 by order of Dona Maria I (whose tomb is here) in gratitude for a male heir.<br>Don't miss the incredibly elaborate 500-piece Nativity Scene made of cork and terra cotta by celebrated 18th-century sculptor Joaquim Machado de Castro; it's in a room just beyond the tomb. Climb the dome for far-reaching views over Lisbon.]]></description>
+				<Point>
+					<coordinates>-9.1608609,38.7131099,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Museu Nacional do Azulejo</name>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>http://img1.10bestmedia.com/Images/Photos/287593/Tile-3_54_990x660.jpg</value>
+					</Data>
+				</ExtendedData>
+				<description><![CDATA[Prices<br>adult/child €5/2.50, free 1st Sun of the month<br><br>Opening hours<br>10am-6pm Tue-Sun<br><br>Housed in a sublime 16th-century convent, the museum covers the entire azulejo (hand-painted tile) spectrum. Star exhibits feature a 36m-long panel depicting pre-earthquake Lisbon, a Manueline cloister with weblike vaulting and exquisite blue-and-white azulejos , and a gold-smothered baroque chapel.<br>Here you'll find every kind of azulejo imaginable, from early Ottoman geometry to zinging altars, scenes of lords a-hunting to Goan intricacies.<br>Bedecked with food-inspired azulejos – ducks, pigs and the like – the restaurant opens onto a vine-clad courtyard.]]></description>
+				<Point>
+					<coordinates>-9.1143501,38.7245006,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Panteão Nacional</name>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>http://www.patrimoniocultural.pt/static/data/cache/9d/27/9d276fbbc586ee1a155b3cda70c40a05.jpg https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRRs8savTvKdw12iZWQ1aneRngxo9cmENcgPc20oPL_hXVcm9A3</value>
+					</Data>
+				</ExtendedData>
+				<description><![CDATA[Prices<br>adult/child €4/2<br><br>Opening hours<br>10am-6pm Tue-Sun<br><br>Perched high and mighty above Graça’s Campo de Santa Clara, the porcelain-white Panteão Nacional is a baroque beauty. Originally intended as a church, it now pays homage to Portugal’s heroes and heroines, including 15th-century explorer Vasco da Gama and fadista (singer of traditional Portuguese song) Amália Rodrigues.<br>Lavishly adorned with pink marble and gold swirls, its echoing dome resembles an enormous Fabergé egg. Trudge up to the 4th-floor viewpoint for a sunbake and vertigo-inducing views over Alfama and the river. Admission free for under 12s.]]></description>
+				<Point>
+					<coordinates>-9.1246833,38.7149945,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Bangkok Airport</name>
+				<ExtendedData>
+				</ExtendedData>
+				<description><![CDATA[Airport Rail Link<br>- Local service: B$45, 30 min every 15min. Six stops 'til Phaya Thai.<br>- Express service: B$90B 15min every hour. Non stop to Makkasan/Bangkok City Air Terminal. Connection to MRT linking Silom and Phetchaburi]]></description>
+				<Point>
+					<coordinates>100.7518387,13.697694,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Phaya Thai Station</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>100.534966,13.7567681,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Taling Chan Floating Market</name>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>http://static.asiawebdirect.com/m/bangkok/portals/bangkok-com/homepage/magazine/taling-chan/pagePropertiesImage/taling-chan.jpg</value>
+					</Data>
+				</ExtendedData>
+				<description><![CDATA[Just few kilometres outside Bangkok but still far enough to not yet have been converted into a full scale tourist attraction is the charming Taling Chan Floating Market. It has everything you need to spend a good half day without having to book a tour and it is far more genuine than the big famous markets. Here you can enjoy a great seafood lunch sitting on the floor with the locals, ride a longtail boat around the nearby klongs (canals) for a 100 baht, do a bit of silly shopping and a lot of food tasting.<br>Then there is Taling Chan floating market, with just enough boats to be called a floating market and the right amount of people to still be enjoyable. Located 12 km outside Bangkok it is still easily accessible without having to get on a tour or even having to wake up at 6 am! If you don't have your own transportation you can ride the BTS until the last station 'Wongwian Yai' then get a taxi for about 150 baht.<br>The entrance of the market is not all that impressive with that green plastic roof sheltering mostly plants and gardening stuff but beyond is the real market with all kinds or sweets, fruits and fun snacks you should really try. Travelling without eating is missing half the pleasure. <br>If you don't want to eat on the floor, you will find some restaurants with plastic tables and chairs near the railway bridge. Restaurants usually have a small illustrated menu so ordering is not too challenging. Worst-case scenario just point at what you'd like on your neighbour's table. Four of five of these giant prawns cost around 200 baht and taste great!<br>Eating by the river is such a fun experience, you should really try it. Surprisingly while the cook are grilling fishes on their many little boats, hundreds of huge catfish are permanently swarming the waters around the canal. Obviously those massive fish are well aware of their bad taste and their popularity with tourists who just love to feed them colourful pellets all day long. To add to the exotic atmosphere, a group of Thai traditional musicians play for few hours adding a real nice touch to the entire experience.]]></description>
+				<Point>
+					<coordinates>100.4565597,13.7761088,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Bang Nam Pheung Floating Market</name>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>http://static.asiawebdirect.com/m/bangkok/portals/bangkok-com/homepage/magazine/bang-nam-pheung/allParagraphs/00/image/bang-nam-pheung-market.jpg http://static.asiawebdirect.com/m/bangkok/portals/bangkok-com/homepage/magazine/bang-nam-pheung/allParagraphs/01/image/bang-nam-pheung-floating-market-10.jpg</value>
+					</Data>
+				</ExtendedData>
+				<description><![CDATA[Bang Nam Pheung floating market should probably be called a 'riverside market' as like many others it only has a few boats parked along the banks, with most of the stalls on solid ground. But with the success of the famous Damnoen Saduak or more recently Amphawa, this popular type of market is flourishing all over Thailand and every village near a river has its own version.<br>Bang Nam Pheung is only few kilometres east side of Bangkok but it is not easy to find or to reach without your own transortation. Because of this it has remained relatively low-key and the proximity to Bangkok makes it a great way to step away from the hectic town and step right into village life.<br>Bang Nam Pheung is located in an unusual loop of the Chao Phraya river nicknamed 'the Green Lung of Bangkok', a surprisingly untouched area clearly visible from the sky and still covered with vegetation despite being so close to town. <br>If your vision of a floating market is a canal crowded with a fleet of wooden boats, this might not be what you have in mind. A complete contrast to touristy Damnoen Saduak, Bang Nam Pheung is a real local market with a lot of interesting food and sweets to try. Whilst it doesn't offer the usual photo opportunity, it still has a plenty of charm.<br>Bang Nam Pheung flaoting market is not vast, but still large enough to entertain you for a morning and signs of further expansion clearly show the success of the place. Exploring the narrow lanes and meandering under very large trees is very enjoyable compared to the over-heated narrow constructions found in other markets. People are very friendly, especially if you are daring enough to sample any of the interesting looking dishes on display. For travellers, it's always fun to try to imagine what this object or that lotion can be used for and Bang Nam Pheung market is definitely full of surprises!<br><br>---<br>The market is on the road Sukhumvit - Thong Thong , follow the signs to go and whether or ring expressway industry. I saw a sign pointing to turn left and follow signs to the door Thong welcome . "City Ammarawithi " straight indefinitely Notice Top Charoen Optical . Turn left and go another 5 km you will come across some honey market .]]></description>
+				<Point>
+					<coordinates>100.5763686,13.6798167,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Padrão dos Descobrimentos</name>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>http://images-resrc.staticlp.com/S=W750M,H450M,U/O=85/http://media.lonelyplanet.com/assets/image/c283bede3405b09d62629c61d06fe970044dafdfd55d8bdfb5ac657e4fe89f3d/44088c6914eb568d4cb6b51f6c13e61993f43dd0a8004c1a1063189bb7236ca6.jpg</value>
+					</Data>
+				</ExtendedData>
+				<description><![CDATA[Prices<br>adult/child €3/2<br><br>Opening hours<br>10am-7pm, closed Mon in low season<br><br>Like a caravel frozen in mid-swell, the monolithic Padrão dos Descobrimentos was inaugurated in 1960 on the 500th anniversary of Henry the Navigator’s death. The 52m-high limestone giant is chock-full of Portuguese bigwigs. At the prow is Henry, while behind him are explorers Vasco da Gama, Diogo Cão, Fernão de Magalhães and 29 other greats.<br>Do take the lift (or puff up 267 steps) to the windswept miradouro for 360-degree views over the river. The mosaic in front of the monument charts the routes of Portuguese mariners.]]></description>
+				<Point>
+					<coordinates>-9.2057383,38.6936077,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Palácio Nacional da Ajuda</name>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>http://images-resrc.staticlp.com/S=W750M,H450M,U/O=85/http://media.lonelyplanet.com/assets/image/af048c70d1ffbd99c8c8629012183b334019d40fc74e647c2809cd6d71ac780b/0e612fbafdc6e839c4f286cc407f462970d0a83867cbb3d319c6eae9e839f704.jpg</value>
+					</Data>
+				</ExtendedData>
+				<description><![CDATA[Opening hours10am-5pm Thu-Tue<br><br>Built in the early 19th century, this staggering neoclassical palace served as the royal residence from the 1860s until the end of the monarchy in 1910. You can tour through private apartments and state rooms, getting an eyeful of the crystal chandeliers, Flemish tapestries, fresco-covered ceilings, gilded furnishings and exquisite artworks dating back five centuries.Prices<br>admission varies<br><br>It's a long uphill walk from Belém, or you can take tram 18 or several buses from downtown, including 760 from Praça do Comércio.]]></description>
+				<Point>
+					<coordinates>-9.19784,38.707587,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Jardim do Ultramar</name>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>http://3.bp.blogspot.com/-UqW5cQIePoc/VQX5XXeImhI/AAAAAAAABl4/k_40eqYWBU4/s1600/IMG_1525.JPG</value>
+					</Data>
+				</ExtendedData>
+				<description><![CDATA[Prices<br>adult/child €1.50/free<br><br>Opening hours<br>9am-7.30pm<br><br>Far from the madding crowd, Jardim do Ultramar bristles with 4000 species from date palms to monkey puzzle trees. It’s a peaceful, shady retreat on a sweltering summer’s day. A highlight is the Macau garden complete with mini pagoda, where bamboo rustles and a cool stream trickles. Tots love to clamber over the gnarled roots of a banyan tree and spot the waddling ducks and geese.]]></description>
+				<Point>
+					<coordinates>-9.2038929,38.6981379,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Igreja de São Domingos</name>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>http://media-cdn.tripadvisor.com/media/photo-s/05/bc/82/6b/de-gran-tamano-y-evocador.jpg http://photos.wikimapia.org/p/00/03/65/07/59_big.jpg</value>
+					</Data>
+				</ExtendedData>
+				<description><![CDATA[Opening hours<br>7.30am-7pm Mon-Fri, noon-6pm Sat<br><br>It’s a miracle that this church still stands, having barely survived the 1755 earthquake, then fire in 1959. A sea of tea lights illuminates gashed pillars, battered walls and ethereal sculptures in its musty, yet enchanting, interior. Note the Star of David outside marking the spot of a bloody anti-Semitic massacre in 1506.<br>The square is a popular hang-out with Lisbon’s African community. At dusk locals gather for sundown cherry liqueurs at A Ginjinha .]]></description>
+				<Point>
+					<coordinates>-9.138753,38.714695,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Jardim Garcia de Orta</name>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>http://www.cm-lisboa.pt/uploads/pics/tt_address/jardim-garcia-d_orta-6105.jpg</value>
+					</Data>
+				</ExtendedData>
+				<description><![CDATA[Bristling with exotic foliage from Portugal’s former colonies, the Jardim Garcia de Orta is named after a 16th-century Portuguese naturalist and pioneer in tropical medicine. Botanical rarities include Madeira’s bird of paradise and serpentine dragon tree.<br>Stroll the Brazilian garden, shaded by bougainvillea, silk-cotton, frangipani and Tabasco pepper trees. There’s also a music garden where kids can bash out melodies on giant triangles and gongs.]]></description>
+				<Point>
+					<coordinates>-9.091945,38.772143,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Convento do Carmo &amp; Museu Arqueológico</name>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>http://images-resrc.staticlp.com/S=W750M,H450M,U/O=85/http://media.lonelyplanet.com/assets/image/59a27fd447030945b5fdbe42602b5a621ee44fa8a98ae0d38b6c6ccabd64d908/9119aeb47a725ecc2b3a4c871a046866e2f9471dcdef277adee37c2d21df47a6.jpg</value>
+					</Data>
+				</ExtendedData>
+				<description><![CDATA[Prices<br>adult/child €3.50/free<br><br>Opening hours<br>10am-7pm Mon-Sat<br><br>Soaring above Lisbon, the skeletal Convento do Carmo was all but devoured by the 1755 earthquake and that's precisely what makes it so captivating. Its shattered pillars and wishbone-like arches are completely exposed to the elements. The Museu Arqueológico shelters archaeological treasures, such as 4th-century sarcophagi, griffin-covered column fragments, 18th-century azulejo (hand-painted tile) panels and two gruesome 16th-century Peruvian mummies.]]></description>
+				<Point>
+					<coordinates>-9.1402441,38.7121492,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Jardim da Estrela</name>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>http://static.viatecla.com/ezimut/share/2014-02/2014-02-14173516_b301f29c-bfab-444d-a00c-1e7a8c55278e$$DBDC69D3-8C43-4B75-BC1E-69612B5DAAAB$$996BA352-44FB-4AF6-BEE0-EF307BC7D00A$$LargeImage$$pt$$1.jpg</value>
+					</Data>
+				</ExtendedData>
+				<description><![CDATA[Opening hours<br>gardens 7am-midnight, cafe 10am-11pm<br><br>Seeking green respite? Opposite the Basílica da Estrela, this garden is perfect for a stroll, with paths weaving past pine, monkey puzzle and palm trees, rose and cacti beds and the centrepiece – a giant banyan tree. Kids love the duck ponds and animal-themed playground. There are several open-air cafes where you can recharge.]]></description>
+				<Point>
+					<coordinates>-9.1590464,38.7147067,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Praça do Príncipe Real</name>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>https://bigcitiesbrightlights.files.wordpress.com/2013/10/principe-real_3191.jpg?w=610&amp;h=457</value>
+					</Data>
+				</ExtendedData>
+				<description><![CDATA[Shaded by a giant cedar tree, Praça do Príncipe Real is a relaxing shady plaza with an alfresco cafe for watching the world go slowly by. The surrounding district is perfect for lazy days spent exploring markets, antique stores, edgy boutiques and design stores. Creatives, hipsters and the gay community love this boho-flavoured pocket of Lisbon.]]></description>
+				<Point>
+					<coordinates>-9.148714500000002,38.716314,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Aqueduto das Águas Livres</name>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>http://images-resrc.staticlp.com/S=W750M,H450M,U/O=85/http://media.lonelyplanet.com/assets/image/5c59cf0c027342b387c36fd995afcc05d6df52989fc71d2d4a710717e7144d70/456e3627c6a8be3d8f24806a51f37cd9dc98f393c1bb81ae3de8726c5b7c56dd.jpg</value>
+					</Data>
+				</ExtendedData>
+				<description><![CDATA[The 109 arches of the Aqueduto das Águas Livres lope across the hills into Lisbon from Caneças, more than 18km away; they are most spectacular at Campolide, where the tallest arch is an incredible 65m high. Built between 1728 and 1835, by order of Dom João V, the aqueduct brought Lisbon its first clean drinking water.]]></description>
+				<Point>
+					<coordinates>-9.1664922,38.7266768,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Miradouro de São Pedro de Alcântara</name>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCMLYvq22NOpj4WfmD3yEooYipuct7cA37I5SovPMv1cEKj3gQ</value>
+					</Data>
+				</ExtendedData>
+				<description><![CDATA[Opening Hours<br>viewpoint 24hr, cafe 10am-midnight Mon-Wed, to 2am Thu-Sun<br><br><br>Hitch a ride on vintage Elevador da Glória from Praça dos Restauradores, or huff your way up steep Calçada da Glória to this terrific hilltop viewpoint. Fountains and Greek busts add a regal air to the surroundings, and the open-air cafe doles out wine, beer and snacks, which you can enjoy while taking in the castle views.]]></description>
+				<Point>
+					<coordinates>-9.1441494,38.7146063,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Elevador de Santa Justa</name>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>http://images-resrc.staticlp.com/S=W750M,H450M,U/O=85/http://media.lonelyplanet.com/assets/image/9bae3688516d0f51aa93121e040bb2d1cd8b24cabba27f2d0070ab1d0305b3b2/67634768bfedb42e06c74a369b6b541a5cab57aabd49b9e7c88e8afbfea8afb9.jpg</value>
+					</Data>
+				</ExtendedData>
+				<description><![CDATA[Prices<br>return trip €5<br><br>Opening hours<br>7am-10.45pm<br><br>If the lanky, wrought-iron Elevador de Santa Justa seems uncannily familiar, it’s probably because the neo-Gothic marvel is the handiwork of Raul Mésnier, Gustave Eiffel’s apprentice. It’s Lisbon’s only vertical street lift. Get there early to beat the crowds and zoom to the top for sweeping views over the city’s skyline.]]></description>
+				<Point>
+					<coordinates>-9.1394314,38.7121304,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Palácio da Assembleia da República</name>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>http://static.panoramio.com/photos/large/81686821.jpg</value>
+					</Data>
+				</ExtendedData>
+				<description><![CDATA[The columned, temple-like Palácio da Assembleia da República is where Portugal’s parliament, the Assembleia da República, makes its home. It was once the enormous Benedictine Mosteiro de São Bento, and is decorated with lofty Doric columns and graceful statues of temperance, prudence, fortitude and justice.]]></description>
+				<Point>
+					<coordinates>-9.1539502,38.7125908,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Ribeira das Naus</name>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT93Rus8VwQv4bKWeUs-sK3xcduWOsW6FNWZj2DrQlfFO4N3kFv</value>
+					</Data>
+				</ExtendedData>
+				<description><![CDATA[Lisbon's recently regenerated waterfront revolves around this riverfront promenade between Praça do Comércio and Cais do Sodré. With broad views over the river, it's a fine place for strolling, lounging, reading, cycling and kicking back with a coffee at the kiosk. This is the closest Lisbon gets to an urban beach.]]></description>
+				<Point>
+					<coordinates>-9.1397345,38.7065819,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Torre Vasco da Gama</name>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>http://upload.wikimedia.org/wikipedia/commons/9/97/20141003184231!Torre_Vasco_da_Gama_Lissabon_September_2014_edited.jpg</value>
+					</Data>
+				</ExtendedData>
+				<description><![CDATA[Shaped like the sail of explorer Vasco da Gama’s mighty caravel, this 145m-high, concrete-and-steel skyscraper was designed by architects Leonor Janeiro and Nick Jacobs. Sidling up to the tower is the slick five-star Myriad by Sana hotel, which opened in 2013 and bears the hallmark of architect Nuno Leónidas.]]></description>
+				<Point>
+					<coordinates>-9.0917632,38.7747776,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Mãe d’Água</name>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>http://2.bp.blogspot.com/-U3OyWOohfMQ/UmBMe8_ZdlI/AAAAAAAAEak/0SH_tsPi4xU/s1600/MaeAgua+02+Vives-Rubio.jpg</value>
+					</Data>
+				</ExtendedData>
+				<description><![CDATA[Prices<br>adult/child €3/1.50<br><br>Opening hours<br>10am-5.30pm Tue-Sat<br><br>The king laid the aqueduct’s final stone at Mãe d’Água, the city’s massive 5500-cu-metre main reservoir. Completed in 1834, the reservoir’s cool, echoing chamber is a fine place to admire 19th-century technology. Climb the stairs for a fine view of the aqueduct and the surrounding neighbourhood.]]></description>
+				<Point>
+					<coordinates>-9.1558331,38.7214559,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>British Cemetery</name>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>https://umlisboetaingles.files.wordpress.com/2015/02/dsc_0018.jpg</value>
+					</Data>
+				</ExtendedData>
+				<description><![CDATA[Opening hours<br>10.30am-1pm Mon-Fri<br><br><br>Overgrown with cypress trees, the Cemitério dos Ingleses was founded in 1717. Expats at rest here include Henry Fielding (author of Tom Jones ), who died during a fruitless visit to Lisbon in 1754 to improve his health. At the far corner are the remains of Lisbon’s old Jewish cemetery.]]></description>
+				<Point>
+					<coordinates>-9.1603178,38.7163977,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Caminho da Água</name>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>https://fedeblog2014.files.wordpress.com/2015/03/img_9040.jpg?w=440</value>
+					</Data>
+				</ExtendedData>
+				<description><![CDATA[Portuguese muralist Rigo designed this splash-happy boardwalk. Watch blue mosaic volcanoes erupt spontaneously or relax on one of the wave-shaped benches. Forget taking a dip, though, as signs warn that bathing is forbidden. Well, there’s always the Tejo…]]></description>
+				<Point>
+					<coordinates>-9.0956497,38.7696438,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Miradouro da Senhora do Monte</name>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>http://www.cm-lisboa.pt/uploads/pics/tt_address/senhora-do-monte_ASR2687-2.jpg</value>
+					</Data>
+				</ExtendedData>
+				<description><![CDATA[Lisbon spreads out before you at Graça’s highest of the high, Miradouro da Senhora do Monte. Come for the relaxed vibe and the best views of the castle on the hill opposite. It’s a short walk west (along Rua da Senhora do Monte) of the tram 28 stop on Rua da Graça.]]></description>
+				<Point>
+					<coordinates>-9.1326723,38.7190137,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Miradouro de Santa Catarina</name>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>http://static.viatecla.com/ezimut/share/2014-06/2014-06-06190413_b301f29c-bfab-444d-a00c-1e7a8c55278e$$DBDC69D3-8C43-4B75-BC1E-69612B5DAAAB$$EF826870-0CB8-4153-B8FD-C862F6789A82$$LargeImage$$pt$$1.jpg</value>
+					</Data>
+				</ExtendedData>
+				<description><![CDATA[Students bashing out rhythms, pot-smoking hippies, stroller-pushing parents and loved-up couples all meet at this precipitous viewpoint in boho Santa Catarina. The views are fantastic, stretching from the river to the Ponte 25 de Abril and Cristo Rei.]]></description>
+				<Point>
+					<coordinates>-9.1474271,38.7094211,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Arco da Vitória</name>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>http://media-cdn.tripadvisor.com/media/photo-s/07/58/43/25/praca-do-comercio-terreiro.jpg</value>
+					</Data>
+				</ExtendedData>
+				<description><![CDATA[Prices<br>admission €2.50<br><br>Also known as the Arco da Rua Augusta, this triumphal arch was built in the wake of the 1755 earthquake. A lift whisks you to the top, where fine views of Praça do Comércio, the river and the castle await. Admission for kids under five is free.]]></description>
+				<Point>
+					<coordinates>-9.136823,38.7084468,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<name>Estufas</name>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>http://images-resrc.staticlp.com/S=W750M,H450M,U/O=85/http://media.lonelyplanet.com/assets/image/4b3fbc42ceae7488c2d69120a8db85c0164acbad05c08f528f39fcfb2150876c/a4a0b86ecfad8ff2f2667e0d9d6f6df729be9b8dc707877daac2ddbff0190bee.jpg</value>
+					</Data>
+				</ExtendedData>
+				<description><![CDATA[Prices<br>adult/child €3.10/2.30, free Sun 9am-2pm<br><br>Opening hours<br>10am-7pm Apr-Oct, 9am-5pm Nov-Mar<br><br>Tucked away in a pocket of Parque Eduardo VII, this trio of glasshouses nurtures tree ferns and camellias in the estufa fría (cool greenhouse), coffee and mango trees in the estufa quente (hot greenhouse) and cacti in the estufa doce (sweet greenhouse).]]></description>
+				<Point>
+					<coordinates>-9.1562006,38.7294054,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Style id='icon-503-DB4436'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+	</Document>
+</kml>

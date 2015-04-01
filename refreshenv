@@ -1,0 +1,10 @@
+#!/bin/bash -e
+if [ -z $VIRTUAL_ENV ]; then
+    . ./startenv
+fi
+
+# pip setup
+if [ -f "requirements.txt" ]; then
+    pip install pip==6.0.8
+    yes w | pip install -r requirements.txt
+fi

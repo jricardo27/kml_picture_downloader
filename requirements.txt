@@ -1,0 +1,7 @@
+ipdb==0.8
+pep8==1.4.6
+pylint==1.1.0
+pylint-mccabe==0.1.2
+
+lxml==3.4.2   # Required for pykml
+pykml==0.1.0  # For processing KML

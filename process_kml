@@ -13,16 +13,6 @@ import urllib
 from pykml import parser as kml_parser
 
 
-def get_kml_files():
-    """
-    Return all KML files in the current directory
-    """
-    path = os.path.dirname(os.path.realpath(__file__))
-
-    return [filename for filename in os.listdir(path)
-            if filename[-4:].lower() == '.kml']
-
-
 def get_parsed_file(filename):
     """
     Return a parsed file
@@ -88,11 +78,20 @@ def main():
 
     args = parse_args()
 
-    for filename in args.input_files:
-        path = os.path.dirname(filename)
-        doc = get_parsed_file(filename)
+    for filepath in args.input_files:
+        filepath = os.path.abspath(filepath)
+        filename = os.path.basename(filepath)
 
-        print('Downloading pictures for {0}'.format(filename))
+        if filename[-4:].lower() != '.kml':
+            print('Invalid file type. Skipping.')
+            continue
+
+        name = filename[:-4]
+        path = os.path.join(os.path.dirname(filepath), name)
+
+        doc = get_parsed_file(filepath)
+
+        print('Downloading pictures for {0}'.format(filepath))
 
         photos_dir = check_for_dir(os.path.join(path, 'photos'))
 

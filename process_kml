@@ -7,9 +7,10 @@ use on Maverick by:
 
 from __future__ import absolute_import, print_function
 
+import argparse
 import os
 import urllib
-from pykml import parser
+from pykml import parser as kml_parser
 
 
 def get_kml_files():
@@ -26,7 +27,7 @@ def get_parsed_file(filename):
     """
     Return a parsed file
     """
-    return parser.parse(open(filename, 'r')).getroot()
+    return kml_parser.parse(open(filename, 'r')).getroot()
 
 
 def check_for_dir(path):
@@ -59,13 +60,35 @@ def download_pic(url, img_name, dest_dir='photos'):
         urllib.urlretrieve(url, filename)
 
 
+def parse_args():
+    """Parse arguments from command line."""
+
+    parser = argparse.ArgumentParser(
+        description='Download images referenced in a KML file',
+    )
+
+    parser.add_argument(
+        'input_files',
+        nargs='+',
+        default='',
+        help='Path to files to process',
+    )
+
+    args = parser.parse_args()
+
+    return args
+
+
 def main():
     """
     Main application
     """
+
+    args = parse_args()
+
     check_for_dir('photos')
 
-    for filename in get_kml_files():
+    for filename in args.input_files:
         doc = get_parsed_file(filename)
 
         print('Downloading pictures for {0}'.format(filename))

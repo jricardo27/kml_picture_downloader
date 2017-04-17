@@ -7,26 +7,17 @@ use on Maverick by:
 
 from __future__ import absolute_import, print_function
 
+import argparse
 import os
 import urllib
-from pykml import parser
-
-
-def get_kml_files():
-    """
-    Return all KML files in the current directory
-    """
-    path = os.path.dirname(os.path.realpath(__file__))
-
-    return [filename for filename in os.listdir(path)
-            if filename[-4:].lower() == '.kml']
+from pykml import parser as kml_parser
 
 
 def get_parsed_file(filename):
     """
     Return a parsed file
     """
-    return parser.parse(open(filename, 'r')).getroot()
+    return kml_parser.parse(open(filename, 'r')).getroot()
 
 
 def check_for_dir(path):
@@ -35,6 +26,8 @@ def check_for_dir(path):
     """
     if not os.path.exists(path):
         os.makedirs(path)
+
+    return path
 
 
 def download_pic(url, img_name, dest_dir='photos'):
@@ -59,16 +52,48 @@ def download_pic(url, img_name, dest_dir='photos'):
         urllib.urlretrieve(url, filename)
 
 
+def parse_args():
+    """Parse arguments from command line."""
+
+    parser = argparse.ArgumentParser(
+        description='Download images referenced in a KML file',
+    )
+
+    parser.add_argument(
+        'input_files',
+        nargs='+',
+        default='',
+        help='Path to files to process',
+    )
+
+    args = parser.parse_args()
+
+    return args
+
+
 def main():
     """
     Main application
     """
-    check_for_dir('photos')
 
-    for filename in get_kml_files():
-        doc = get_parsed_file(filename)
+    args = parse_args()
 
-        print('Downloading pictures for {0}'.format(filename))
+    for filepath in args.input_files:
+        filepath = os.path.abspath(filepath)
+        filename = os.path.basename(filepath)
+
+        if filename[-4:].lower() != '.kml':
+            print('Invalid file type. Skipping.')
+            continue
+
+        name = filename[:-4]
+        path = os.path.join(os.path.dirname(filepath), name)
+
+        doc = get_parsed_file(filepath)
+
+        print('Downloading pictures for {0}'.format(filepath))
+
+        photos_dir = check_for_dir(os.path.join(path, 'photos'))
 
         for placemark in doc.Document.Folder.Placemark:
             try:
@@ -76,9 +101,10 @@ def main():
                 url = placemark.ExtendedData.Data.value.text
 
                 print('{0}'.format(name.encode('utf8')))
-                download_pic(url, name)
+                download_pic(url, name, photos_dir)
             except AttributeError:
                 pass
 
 
-main()
+if __name__ == "__main__":
+    main()

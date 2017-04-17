@@ -7,8 +7,6 @@ if [ -z $VIRTUAL_ENV ]; then
 
         ./refreshenv
     fi
-
-    export PATH=$PATH:`npm bin`
 else
     echo "Already in a virtualenv. Not doing anything!"
 fi

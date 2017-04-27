@@ -8,9 +8,49 @@ use on Maverick by:
 from __future__ import absolute_import, print_function
 
 import argparse
+import codecs
 import os
+import shutil
 import urllib
+import zipfile
+
+from lxml import etree, objectify
 from pykml import parser as kml_parser
+
+# Prevent adding a namespace to every new element
+KML = objectify.ElementMaker(
+    annotate=False,
+    namespace=None,
+    nsmap=None,
+)
+
+
+TEXT_ELEMENTS = [
+    'description', 'text', 'linkDescription', 'displayName', 'Data/*',
+]
+
+
+def get_xml_with_cdata(obj, cdata_elements):
+    """Render CDATA tags in the given document."""
+
+    # Convert Objectify document to lxml.etree (is there a better way?)
+    root = etree.fromstring(etree.tostring(etree.ElementTree(obj)))
+
+    # Create an xpath expression to search for all desired cdata elements
+    xpath = '|'.join([
+        '//kml:' + tag
+        for tag in cdata_elements
+    ])
+
+    results = root.xpath(
+        xpath,
+        namespaces={'kml': 'http://www.opengis.net/kml/2.2'},
+    )
+
+    for element in results:
+        element.text = etree.CDATA(element.text)
+
+    return root
 
 
 def get_parsed_file(filename):
@@ -22,7 +62,7 @@ def get_parsed_file(filename):
 
 def check_for_dir(path):
     """
-    Check  if the given path exists, otherwise, create it
+    Check if the given path exists, otherwise, create it
     """
     if not os.path.exists(path):
         os.makedirs(path)
@@ -30,9 +70,13 @@ def check_for_dir(path):
     return path
 
 
-def download_pic(url, img_name, dest_dir='photos'):
+def download_pic(url, img_name, dest_dirs):
     """
     Download an image from the given url and store it on the specified dir
+
+    :param url: URL to the image to download.
+    :param img_name: Name to use to store the file.
+    :param dest_dirs: List of directories to store the image.
     """
     if ' ' in url:
         url = url.split(' ')[0]
@@ -43,13 +87,21 @@ def download_pic(url, img_name, dest_dir='photos'):
     else:
         extension = url.split('.')[-1]
 
-    filename = '{0}.{1}'.format(img_name.encode('utf8'), extension)
-    filename = os.path.join(dest_dir, filename)
+    filename = u'{0}.{1}'.format(img_name.encode('utf8'), extension)
+
+    first_dir = dest_dirs[0]
+    filepath = os.path.join(first_dir, filename)
 
     # If the file already exists, don't download it again
-    if not os.path.isfile((filename)):
-        print('Downloading: {0}'.format(url))
-        urllib.urlretrieve(url, filename)
+    if not os.path.isfile(filepath):
+        print(u'Downloading: {0}'.format(url))
+        urllib.urlretrieve(url, filepath)
+
+    # If there are more directories, copy the image to them.
+    for other_dir in dest_dirs[1:]:
+        shutil.copy2(filepath, os.path.join(other_dir, filename))
+
+    return filename
 
 
 def parse_args():
@@ -58,6 +110,10 @@ def parse_args():
     parser = argparse.ArgumentParser(
         description='Download images referenced in a KML file',
     )
+    parser.add_argument(
+        '--maverick',
+        action='store_true',
+        help='Save pictures in a `photos` directory.')
 
     parser.add_argument(
         'input_files',
@@ -71,6 +127,52 @@ def parse_args():
     return args
 
 
+def init_maverick(filepath, filename):
+    """Initialize the directory for outputting Maverick files."""
+
+    path = os.path.join(os.path.dirname(filepath), '%s_maverick' % filename)
+
+    return check_for_dir(os.path.join(path, 'photos'))
+
+
+def init_kmz(filepath, filename):
+    """Initialize the directory for outputting the KMZ content."""
+
+    return os.path.join(os.path.dirname(filepath), '%s_kmz' % filename)
+
+
+def process_placemark(placemark, dirs):
+    """Download images defined in the placemark."""
+
+    name = placemark.name.text
+    print('{0}'.format(name.encode('utf8')))
+
+    media_elements = placemark.ExtendedData.findall(
+        './/*[@name="gx_media_links"]'
+    )
+
+    for media in media_elements:
+        url = media.value.text
+        print(url)
+
+        picname = download_pic(url, name, dirs)
+
+        # Add new data.
+        img = u'<img src="photos/{filename}">'.format(
+            filename=picname,
+        )
+        placemark.ExtendedData.append(
+            KML.Data(KML.value(img), name='pictures'))
+
+    placemark.ExtendedData.append(
+        KML.Data(KML.value(placemark.description.text), name='notes'))
+
+    placemark.description = KML.description(u'{img}{desc}'.format(
+        img=img,
+        desc=placemark.description,
+    ))
+
+
 def main():
     """
     Main application
@@ -80,31 +182,44 @@ def main():
 
     for filepath in args.input_files:
         filepath = os.path.abspath(filepath)
-        filename = os.path.basename(filepath)
+        filename, extension = os.path.splitext(filepath)
 
-        if filename[-4:].lower() != '.kml':
+        if extension.lower() not in ('.kml', '.kmz'):
             print('Invalid file type. Skipping.')
             continue
 
-        name = filename[:-4]
-        path = os.path.join(os.path.dirname(filepath), name)
+        kmz_dir = init_kmz(filepath, filename)
+        kmz_photos_dir = check_for_dir(os.path.join(kmz_dir, 'photos'))
 
-        doc = get_parsed_file(filepath)
+        dirs = [kmz_photos_dir]
+
+        if args.maverick:
+            dirs.append(init_maverick(filepath, filename))
+
+        if extension.lower() == '.kml':
+            # Copy KML file.
+            shutil.copy2(filepath, os.path.join(kmz_dir, 'doc.kml'))
+        else:
+            # Extract files from KMZ.
+            kmz_instance = zipfile.ZipFile(filepath)
+            kmz_instance.extractall(kmz_dir)
+
+        kmz_filepath = os.path.join(kmz_dir, 'doc.kml')
+        doc = get_parsed_file(kmz_filepath)
 
         print('Downloading pictures for {0}'.format(filepath))
 
-        photos_dir = check_for_dir(os.path.join(path, 'photos'))
-
         for placemark in doc.Document.Folder.Placemark:
-            try:
-                name = placemark.name.text
-                url = placemark.ExtendedData.Data.value.text
+            process_placemark(placemark, dirs)
 
-                print('{0}'.format(name.encode('utf8')))
-                download_pic(url, name, photos_dir)
-            except AttributeError:
-                pass
+        # Save KMZ file.
+        with codecs.open(kmz_filepath, 'w', 'utf-8') as kmz_file:
+            kmlobj_with_cdata = get_xml_with_cdata(doc, TEXT_ELEMENTS)
+            kmz_file.write(etree.tostring(
+                kmlobj_with_cdata, pretty_print=True,
+            ))
 
 
 if __name__ == "__main__":
     main()
+    print('Process finished.')

@@ -11,7 +11,8 @@ import argparse
 import codecs
 import os
 import shutil
-import urllib
+import urllib.parse
+import urllib.request
 import zipfile
 
 from lxml import etree, objectify
@@ -81,13 +82,15 @@ def download_pic(url, img_name, dest_dirs):
     if ' ' in url:
         url = url.split(' ')[0]
 
+    path = urllib.parse.urlparse(url).path
+    extension = os.path.splitext(path)[1]
+
+    # TODO: Infer filetype.
     if '?' in url:
         # Lets assume it's 'jpg'
         extension = 'jpg'
-    else:
-        extension = url.split('.')[-1]
 
-    filename = u'{0}.{1}'.format(img_name.encode('utf8'), extension)
+    filename = '{0}.{1}'.format(img_name, extension)
 
     first_dir = dest_dirs[0]
     filepath = os.path.join(first_dir, filename)
@@ -95,11 +98,16 @@ def download_pic(url, img_name, dest_dirs):
     # If the file already exists, don't download it again
     if not os.path.isfile(filepath):
         print(u'Downloading: {0}'.format(url))
-        urllib.urlretrieve(url, filepath)
 
-    # If there are more directories, copy the image to them.
-    for other_dir in dest_dirs[1:]:
-        shutil.copy2(filepath, os.path.join(other_dir, filename))
+        try:
+            urllib.request.urlretrieve(url, filepath)
+        except urllib.error.URLError:
+            print('Image not found.')
+
+    if os.path.isfile(filepath):
+        # If there are more directories, copy the image to them.
+        for other_dir in dest_dirs[1:]:
+            shutil.copy2(filepath, os.path.join(other_dir, filename))
 
     return filename
 
@@ -145,9 +153,14 @@ def process_placemark(placemark, dirs):
     """Download images defined in the placemark."""
 
     name = placemark.name.text
-    print('{0}'.format(name.encode('utf8')))
+    print(name)
 
-    media_elements = placemark.ExtendedData.findall(
+    try:
+        extended_data = placemark.ExtendedData
+    except AttributeError:
+        return
+
+    media_elements = extended_data.findall(
         './/*[@name="gx_media_links"]'
     )
 
@@ -158,19 +171,42 @@ def process_placemark(placemark, dirs):
         picname = download_pic(url, name, dirs)
 
         # Add new data.
-        img = u'<img src="photos/{filename}">'.format(
+        img = '<img src="photos/{filename}">'.format(
             filename=picname,
         )
-        placemark.ExtendedData.append(
+        extended_data.append(
             KML.Data(KML.value(img), name='pictures'))
 
-    placemark.ExtendedData.append(
+    extended_data.append(
         KML.Data(KML.value(placemark.description.text), name='notes'))
 
-    placemark.description = KML.description(u'{img}{desc}'.format(
+    placemark.description = KML.description('{img}{desc}'.format(
         img=img,
         desc=placemark.description,
     ))
+
+
+def zipdir(filename, path):
+    """Zip a directory."""
+
+    with zipfile.ZipFile(filename, 'w', zipfile.ZIP_DEFLATED) as zipf:
+        for root, dirs, files in os.walk(path):
+            for file in files:
+                zipf.write(os.path.join(root, file))
+
+
+def kmz_sequence_name(filename):
+    """Determine a sequenced filename to store the new KMZ."""
+
+    seq = 0
+    pattern = '%s%d.kmz'
+    new_filename = pattern % (filename, seq)
+
+    while os.path.exists(new_filename):
+        seq += 1
+        new_filename = pattern % (filename, seq)
+
+    return new_filename
 
 
 def main():
@@ -209,7 +245,12 @@ def main():
 
         print('Downloading pictures for {0}'.format(filepath))
 
-        for placemark in doc.Document.Folder.Placemark:
+        try:
+            placemarks = doc.Document.Folder.Placemark
+        except AttributeError:
+            placemarks = doc.Document.Placemark
+
+        for placemark in placemarks:
             process_placemark(placemark, dirs)
 
         # Save KMZ file.
@@ -217,7 +258,9 @@ def main():
             kmlobj_with_cdata = get_xml_with_cdata(doc, TEXT_ELEMENTS)
             kmz_file.write(etree.tostring(
                 kmlobj_with_cdata, pretty_print=True,
-            ))
+            ).decode('utf-8'))
+
+        zipdir(kmz_sequence_name(filename), kmz_dir)
 
 
 if __name__ == "__main__":

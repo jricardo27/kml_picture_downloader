@@ -12,7 +12,7 @@ Getting Started
 
 #. Init virtual environment, it will:
 
-   - Create a Python 2.7 virtual environment.
+   - Create a Python 3.6 virtual environment.
    - Install all pip requirements.
    Run::
 

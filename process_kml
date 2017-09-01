@@ -49,7 +49,8 @@ def get_xml_with_cdata(obj, cdata_elements):
     )
 
     for element in results:
-        element.text = etree.CDATA(element.text)
+        if element.text is not None:
+            element.text = etree.CDATA(element.text)
 
     return root
 
@@ -209,6 +210,23 @@ def kmz_sequence_name(filename):
     return new_filename
 
 
+def iterate_placemarks(doc):
+    """Iterate over the placemarks."""
+
+    try:
+        for folder in doc.Document.Folder:
+            for placemark in folder.Placemark:
+                yield placemark
+    except AttributeError:
+        pass
+
+    try:
+        for placemark in doc.Document.Placemark:
+            yield placemark
+    except AttributeError:
+        pass
+
+
 def main():
     """
     Main application
@@ -245,12 +263,7 @@ def main():
 
         print('Downloading pictures for {0}'.format(filepath))
 
-        try:
-            placemarks = doc.Document.Folder.Placemark
-        except AttributeError:
-            placemarks = doc.Document.Placemark
-
-        for placemark in placemarks:
+        for placemark in iterate_placemarks(doc):
             process_placemark(placemark, dirs)
 
         # Save KMZ file.
